@@ -3,32 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Table</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 50%;
-            margin: 20px auto;
-        }
-        th, td {
-            padding: 5px;
-            text-align: left;
-            border: 1px solid #000;
-        }
-    </style>
+    <title>Sample Form</title>
 </head>
 <body>
+    <form id="myForm">
+        <label for="input1">Input 1:</label>
+        <input type="text" id="input1" name="input1" value="Default Value 1"><br><br>
 
-<table>
-    <tr>
-        <th>Name</th>
-        <th>Student ID</th>
-    </tr>
-    <tr>
-        <td>Johnson</td>
-        <td>1123514</td>
-    </tr>
-</table>
+        <label for="input2">Input 2:</label>
+        <input type="text" id="input2" name="input2" value="Default Value 2"><br><br>
 
+        <label for="input3">Input 3:</label>
+        <input type="text" id="input3" name="input3" value="Default Value 3"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
 </body>
 </html>
