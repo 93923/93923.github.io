@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Form</title>
+    <style>
+        .rectangle {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        .circle {
+            width: 150px;
+            height: 150px;
+            background-color: yellow;
+            border: 5px solid red;
+            border-radius: 50%;
+            position: absolute;
+            top: 100px;
+            left: 150px;
+        }
+    </style>
+    <title>Circle and Rectangle</title>
 </head>
 <body>
-    <form id="myForm">
-        <label for="First name:">First name:</label>
-        <input type="text" id="First name:" name="First name:" value="Your first name"><br><br>
 
-        <label for="Last name:">Last name:</label>
-        <input type="text" id="Last name:" name="Last name:" value="Your last name"><br><br>
+    <div class="rectangle"></div>
+    <div class="circle"></div>
 
-        <label for="student ID:">student ID:</label>
-        <input type="text" id="student ID" name="student ID" value="Your student ID"><br><br>
-
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-    </form>
 </body>
 </html>
